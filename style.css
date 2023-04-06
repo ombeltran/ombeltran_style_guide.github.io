@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&family=Delicious+Handrawn&family=Nunito+Sans:wght@300&family=Poppins&family=Roboto:ital@0;1&display=swap');
+
+/*Header and navbar*/
+.contenedor {
+    /* position: fixed; */
+    background-color: rgb(211,211,211);
+    height: 80px;
+    width: 100%;
+    /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+nav h3 {
+    display: inline-flex;
+    float: right;
+    margin: 0 20px;
+    font-size: xx-large;
+}
+
+nav h3 a {
+    color: rgb(0,0,0);
+}
+
+nav h3 a:hover {
+    color: rgb(255,250,240);
+}
+
+h1 {
+    display: inline-flex;
+    /* float: left; */
+    width: 40%;
+    padding: 20px 0;
+    margin-left: 80px;
+}
+
+nav {
+    display: inline-flex;
+}
+
+/*Block main*/
+
+/*General Sections*/
+section {
+    border: 2px solid gray;
+    margin: 0 10px;
+    margin-top: 15px;
+    height: 300px;
+}
+
+h2 {
+    margin: 10px 0 0 10px;
+}
+
+/*Section color*/
+.color div {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    height: 35%;
+    width: 30%;
+    text-align: center; 
+}
+
+.color p {
+    align-items: center;
+    padding: 2% 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boxcolor_1 {
+    background-color: rgb(95,158,160);
+}
+
+.boxcolor_2 {
+    background-color: rgb(255,127,80);
+}
+
+.boxcolor_3 {
+    background-color: rgb(153,50,204);
+}
+
+.boxcolor_4 {
+    background-color: rgb(218,165,32);
+}
+
+/*Section Fonts*/
+.font div {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    height: 35%;
+    width: 45%;
+    /* text-align: center;  */
+}
+
+.font p {
+    font-size: 20px;
+}
+
+.boxfont_1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxfont_2 {
+    /* font-family: 'Delicious Handrawn' , cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.boxfont_3 p {
+    font-family: 'Comic Neue', cursive;
+}
+
+.parrafo_2 {    
+    font-weight: bold;
+}
+
+.parrafo_3 {
+    font-style: italic;
+}
+
+/*Section Buttons*/
+.buttons button {
+    display: block;
+    margin: 10px 0 0 10px;
+    height: 15%;
+    width: 15%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button_1 {
+    border: 2px solid blue;
+    background-color: aqua;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button_1:hover {
+    margin-left: 20px;
+    transform: scale(1.1);
+}
+
+.button_2 {
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color:darkseagreen;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button_2:hover {
+    margin-left: 20px;
+    transform: skewX(20deg) scale(1.2);
+}
+
+.button_3 {
+    border: 2px solid red;
+    border-radius: 30%;
+    background-color: coral;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.button_3:hover {
+    background-color:blanchedalmond;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button_4 {
+    border: 2px solid black;
+    border-radius: 70%;
+    background-color: darkgray;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button_4:hover {
+    background-color:dodgerblue;
+    transform: translateY(-5px);
+    text-transform: uppercase;
+}
